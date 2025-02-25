@@ -67,8 +67,9 @@ a{
   margin-right: auto;
 }*/
 .clearfix{
-  padding:30px;
+  padding:15px;
   text-align: justify;
+  background-color: var(--smoke);
 }
 .oneLetterCol{
   float:left;

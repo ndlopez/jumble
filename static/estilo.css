@@ -12,6 +12,15 @@ header, address, footer{
   text-align:center;
   margin: 10px;
 }
+main{
+  background-color: #2e4054;
+  border-radius: 15px;
+  margin:auto;
+  position: relative;
+  top: 50%;
+  width: 55vw;
+  padding: 10px;
+}
 nav{
   display: block;
   width: 100%;
@@ -44,10 +53,10 @@ a{
   padding: 0px;
   color:#cc274c;
 }
-.marginsLR{
+/*.marginsLR{
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 .clearfix{
   padding:30px;
   text-align: justify;

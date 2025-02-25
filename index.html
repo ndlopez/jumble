@@ -7,16 +7,31 @@
     <meta name="author" content="Diego Lopez">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="static/estilo.css">
+    <link rel="stylesheet" type="text/css" href="https://ndlopez.github.io/static/burger.css">
   </head>
 
   <body>
-    <nav>
+    <!--nav>
       <div class="navlink inline-block">
         <a title="Jumble Game" href="#" class="navlink-on">jumble game</a></div>
       <div class="navlink inline-block"><a title="Home" href="/" class="navlink-off">home</a></div>
       <div class="navlink inline-block"><a title="Research" href="/research" class="navlink-off">research</a></div>
       <div class="navlink inline-block"><a target="_blank" title="Articles" href="https://ndzerglink.wordpress.com" class="navlink-off">articles</a></div>
       <div class="navlink inline-block"><a title="About" href="/pages/about.html" class="navlink-off">about</a></div>
+    </nav-->
+    <nav class="top-nav">
+      <div><h2>Jumble Game</h2></div>
+      <input id="menu-toggle" type="checkbox"/><label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <ul class="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/research">Research</a></li>
+        <li><a href="../pages/projects.html">Projects</a></li>
+        <li><a href="https://ndzerglink.wordpress.com">Articles</a></li>
+        <li class="no-desktop"><a href="/web_player">Music</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+      </ul>
     </nav>
     <header>
       <h1>Today's jumble</h1>

@@ -1,9 +1,18 @@
 *{box-sizing:border-box;}
+:root{
+  --smoke: #2e4054;
+  --wine: #cc274c;
+  --dark-smoke:#6a7285;
+  --light-sky:#bed2e0;
+  --darkish-sky:#bed2e040;
+  --lemon: #ffeea6;
+  --orange: #b58900;
+  --sky-blue: #87ceeb;
+}
 body{
   font-family:Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
   /*background: linear-gradient(45deg, hsl(240, 50%, 78%), hsl(30, 100%, 50%));*/
   background-color:#2e4054;
-  padding: 20px 20px;
   margin: 0px;
   color:#bed2e0;
 }
@@ -34,7 +43,7 @@ a{
   color: #bed2e0;
 }
 .mySNS{padding:5px;}
-.navlink{
+/*.navlink{
   position:relative;
   padding: 1rem 1rem 0rem 1rem;
   font-size: 1rem;
@@ -46,7 +55,7 @@ a{
 .inline-block{
   display: inline-block;
   vertical-align: top;
-}
+}*/
 
 #currtime {
   text-align: right;
